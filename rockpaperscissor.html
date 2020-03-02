@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        Rock Paper Scissor
+    </title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <header>
+        <h1>🖤Rock Paper Scissors🖤</h1>
+        <form  id="user_info" onSubmit = "main(); return false" >
+            Enter your name please :  <input type="text" id="name" >
+            
+            <input class="button5" type="submit" value="Submit">
+        </form>
+        <h2 id="banner">Let the Party Begin...!!!🥳</h2>
+    </header>
+    <div class="score_board">
+        <div id="comp_label" class="badge" > Comp</div>
+        <div id="user_label" class="badge" > User</div>
+        <span id="user_score">0</span>:<span id="comp_score">0</span>
+    </div>
+    <div class="result">
+        TRY NOT TO WIN...!!!😎
+    </div>
+    <div class="choices">
+        <div class="choice" id="r">
+            <p>✊🏻</p>
+            <div class="icon_label">Rock</div>
+        </div>
+        
+        <div class="choice" id="p">
+            <p>✋🏻</p>
+            <div class="icon_label">Paper</div>
+        </div>
+        <div class="choice" id="s">
+            <p>✌🏻</p>
+            <div class="icon_label">Scissors</div>
+        </div>
+        <p id="action_message">#HaveFUN.....👍</p>
+    </div>
+    <p class="footnote">Credits Deepak...😊</p>
+    <script src="gamecode.js" charset="utf-8"></script>
+</body>
